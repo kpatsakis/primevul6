@@ -1,0 +1,1 @@
+    int getPatchSize() const CV_OVERRIDE { return patch_size; }

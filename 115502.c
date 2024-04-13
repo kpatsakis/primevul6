@@ -1,0 +1,1 @@
+  void visit(NotPredicate & /*ope*/) override { name = "NotPredicate"; }

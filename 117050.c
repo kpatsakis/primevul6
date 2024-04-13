@@ -1,0 +1,1 @@
+void TFE_Py_TapeSetStopOnThread() { *ThreadTapeIsStopped() = true; }

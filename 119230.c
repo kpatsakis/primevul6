@@ -1,0 +1,1 @@
+    void setPatchStride(int val) CV_OVERRIDE { patch_stride = val; }

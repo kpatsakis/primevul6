@@ -1,0 +1,1 @@
+  void visit(LiteralString &ope) override { done_ = !ope.lit_.empty(); }

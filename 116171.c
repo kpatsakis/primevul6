@@ -1,0 +1,1 @@
+  BasicWriter<Char> &writer() { return writer_; }

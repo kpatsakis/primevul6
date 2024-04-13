@@ -1,0 +1,1 @@
+  Allocator get_allocator() const { return *this; }

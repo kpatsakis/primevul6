@@ -1,0 +1,1 @@
+  void pop_capture_scope() { capture_scope_stack_size--; }

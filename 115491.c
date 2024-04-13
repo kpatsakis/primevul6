@@ -1,0 +1,1 @@
+inline void Sequence::accept(Visitor &v) { v.visit(*this); }

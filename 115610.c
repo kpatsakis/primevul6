@@ -1,0 +1,1 @@
+inline void Whitespace::accept(Visitor &v) { v.visit(*this); }

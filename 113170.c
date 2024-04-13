@@ -1,0 +1,1 @@
+static inline void ptlock_free(struct page *page) {}

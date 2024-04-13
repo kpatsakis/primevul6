@@ -1,0 +1,1 @@
+  void append_float_length(Char *&, T) {}

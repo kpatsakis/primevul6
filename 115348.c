@@ -1,0 +1,1 @@
+inline bool fail(size_t len) { return len == static_cast<size_t>(-1); }

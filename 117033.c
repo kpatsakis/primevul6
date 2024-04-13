@@ -1,0 +1,1 @@
+inline bool HasGradientTape() { return !GetTapeSet()->empty(); }

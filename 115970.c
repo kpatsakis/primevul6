@@ -1,0 +1,1 @@
+  const Char *data() const { return data_; }

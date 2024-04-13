@@ -1,0 +1,1 @@
+  AlignTypeSpec(unsigned width, wchar_t fill) : AlignSpec(width, fill) {}

@@ -1,0 +1,1 @@
+  std::string str() const { return std::string(&buffer_[0], size()); }

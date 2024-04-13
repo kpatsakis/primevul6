@@ -1,0 +1,1 @@
+int32_t ByteArray::Length() { return filled_length_; }

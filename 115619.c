@@ -1,0 +1,1 @@
+inline void NotPredicate::accept(Visitor &v) { v.visit(*this); }

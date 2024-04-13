@@ -1,0 +1,1 @@
+  static uint64_t type(const NamedArg<Char_> &) { return Arg::NAMED_ARG; }

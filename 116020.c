@@ -1,0 +1,1 @@
+inline DummyInt isinf(...) { return DummyInt(); }

@@ -1,0 +1,1 @@
+  T value() const { return value_; }

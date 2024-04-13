@@ -1,0 +1,1 @@
+inline fmt::StringRef thousands_sep(...) { return ""; }

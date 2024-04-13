@@ -1,0 +1,1 @@
+  static wchar_t convert(char value) { return value; }

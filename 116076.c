@@ -1,0 +1,1 @@
+  explicit FormatInt(LongLong value) { FormatSigned(value); }

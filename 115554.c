@@ -1,0 +1,1 @@
+  void visit(TokenBoundary & /*ope*/) override { has_token_boundary_ = true; }

@@ -1,0 +1,1 @@
+CConfigEntry::CConfigEntry() : m_pSubConfig(nullptr) {}

@@ -1,0 +1,1 @@
+inline void TokenBoundary::accept(Visitor &v) { v.visit(*this); }

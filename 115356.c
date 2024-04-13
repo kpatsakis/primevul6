@@ -1,0 +1,1 @@
+inline void LiteralString::accept(Visitor &v) { v.visit(*this); }

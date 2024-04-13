@@ -1,0 +1,1 @@
+  operator WStringRef() const { return WStringRef(&buffer_[0], size()); }

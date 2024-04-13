@@ -1,0 +1,1 @@
+template <> inline any &any_cast<any>(any &val) { return val; }

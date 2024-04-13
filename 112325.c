@@ -1,0 +1,1 @@
+    MemcacheExtension() : Extension("memcache", "3.0.8") {};

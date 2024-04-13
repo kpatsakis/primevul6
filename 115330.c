@@ -1,0 +1,1 @@
+inline void Repetition::accept(Visitor &v) { v.visit(*this); }

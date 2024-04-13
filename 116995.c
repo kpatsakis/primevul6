@@ -1,0 +1,1 @@
+  ~ThreadLocalDestructionMarker() { alive = false; }

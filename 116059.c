@@ -1,0 +1,1 @@
+  const Char *str() const { return str_; }

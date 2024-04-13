@@ -1,0 +1,1 @@
+inline std::shared_ptr<Ope> dot() { return std::make_shared<AnyCharacter>(); }

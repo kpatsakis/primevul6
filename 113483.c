@@ -1,0 +1,3 @@
+  ~MCrypt() {
+    MCrypt::close();
+  }

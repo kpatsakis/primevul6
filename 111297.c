@@ -1,0 +1,1 @@
+CompositeDeepScanLine::CompositeDeepScanLine() : _Data(new Data) {}

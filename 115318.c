@@ -1,0 +1,1 @@
+inline void Character::accept(Visitor &v) { v.visit(*this); }

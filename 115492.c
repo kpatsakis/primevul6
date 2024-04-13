@@ -1,0 +1,1 @@
+  void visit(Ignore & /*ope*/) override { name = "Ignore"; }

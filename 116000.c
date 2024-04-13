@@ -1,0 +1,1 @@
+  bool flag(unsigned f) const { return (flags_ & f) != 0; }

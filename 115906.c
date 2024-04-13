@@ -1,0 +1,1 @@
+  static bool is_negative(T) { return false; }

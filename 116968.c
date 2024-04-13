@@ -1,0 +1,1 @@
+  void MarkAsResult(PyObject* gradient) const final { Py_INCREF(gradient); }

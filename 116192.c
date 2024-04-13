@@ -1,0 +1,1 @@
+  ~MemoryBuffer() FMT_OVERRIDE { deallocate(); }

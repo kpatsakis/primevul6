@@ -1,0 +1,1 @@
+  Action(F fn) : fn_(make_adaptor(fn, fn)) {}

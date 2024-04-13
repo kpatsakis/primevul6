@@ -1,0 +1,1 @@
+  const Definition &operator[](const char *s) const { return (*grammar_)[s]; }

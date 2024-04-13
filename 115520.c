@@ -1,0 +1,1 @@
+  void visit(Character & /*ope*/) override { done_ = true; }

@@ -1,0 +1,1 @@
+  operator StringRef() const { return StringRef(&buffer_[0], size()); }

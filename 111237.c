@@ -1,0 +1,1 @@
+TensorSliceReader::Table::~Table() {}

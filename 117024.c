@@ -1,0 +1,1 @@
+inline bool HasAccumulator() { return !GetAccumulatorSet()->empty(); }

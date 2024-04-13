@@ -1,0 +1,1 @@
+  void visit(Holder &ope) override { name = ope.trace_name(); }

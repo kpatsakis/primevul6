@@ -1,0 +1,26 @@
+isLogicalOp(int n, SWF_ACTION *actions, int maxn)
+{
+	switch(OpCode(actions, n, maxn))
+	{
+	case SWFACTION_LESSTHAN:
+	case SWFACTION_LOGICALAND:
+	case SWFACTION_LOGICALOR:
+	case SWFACTION_LOGICALNOT:
+	case SWFACTION_STRINGEQ:
+	case SWFACTION_STRINGCOMPARE:
+	case SWFACTION_LESS2:
+	case SWFACTION_EQUALS2:
+	case SWFACTION_EQUAL:
+	case SWFACTION_BITWISEAND:
+	case SWFACTION_BITWISEOR:
+	case SWFACTION_BITWISEXOR:
+	case SWFACTION_STRICTEQUALS:
+	case SWFACTION_GREATER:
+	/*
+	case SWFACTION_GETMEMBER:
+	*/
+		return 1;
+	default:
+		return 0;
+	}
+}

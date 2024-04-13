@@ -1,0 +1,1 @@
+    bool getUseMeanNormalization() const CV_OVERRIDE { return use_mean_normalization; }

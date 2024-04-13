@@ -1,0 +1,1 @@
+inline uint64_t make_type() { return 0; }

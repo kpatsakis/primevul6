@@ -1,0 +1,4 @@
+DNSRequest::~DNSRequest()
+{
+	delete[] res;
+}

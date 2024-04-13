@@ -1,0 +1,1 @@
+  typename ContainerType::const_iterator end() const { return set_copy_.end(); }

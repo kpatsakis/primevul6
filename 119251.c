@@ -1,0 +1,1 @@
+    void setVariationalRefinementIterations(int val) CV_OVERRIDE { variational_refinement_iter = val; }

@@ -1,0 +1,1 @@
+  parser(const char *s, size_t n) : parser(s, n, Rules()) {}

@@ -1,0 +1,1 @@
+  void pop() { value_stack_size--; }

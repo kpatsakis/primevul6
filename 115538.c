@@ -1,0 +1,1 @@
+  void visit(CharacterClass & /*ope*/) override { name = "CharacterClass"; }

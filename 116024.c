@@ -1,0 +1,1 @@
+  RuntimeError(const RuntimeError &rerr) : std::runtime_error(rerr) {}

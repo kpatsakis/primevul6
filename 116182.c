@@ -1,0 +1,1 @@
+  int precision() const { return -1; }

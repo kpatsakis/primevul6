@@ -1,0 +1,1 @@
+  Holder(Definition *outer) : outer_(outer) {}

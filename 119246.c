@@ -1,0 +1,1 @@
+    int getVariationalRefinementIterations() const CV_OVERRIDE { return variational_refinement_iter; }

@@ -1,0 +1,1 @@
+static string getRubberWhaleGroundTruth() { return getDataDir() + "optflow/RubberWhale.flo"; }

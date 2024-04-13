@@ -1,0 +1,1 @@
+static string getRubberWhaleFrame1() { return getDataDir() + "optflow/RubberWhale1.png"; }

@@ -1,0 +1,1 @@
+  std::size_t capacity() const { return capacity_; }

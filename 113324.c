@@ -1,0 +1,1 @@
+static inline bool debug_guardpage_enabled(void) { return false; }

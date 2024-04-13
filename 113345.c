@@ -1,0 +1,1 @@
+static inline bool ptlock_init(struct page *page) { return true; }

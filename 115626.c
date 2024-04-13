@@ -1,0 +1,1 @@
+  void visit(Repetition &ope) override { ope.ope_->accept(*this); }

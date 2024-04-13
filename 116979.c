@@ -1,0 +1,1 @@
+  size_t size() const { return set_copy_.size(); }

@@ -1,0 +1,1 @@
+extern void onig_null_warn(const char* s ARG_UNUSED) { }

@@ -1,0 +1,1 @@
+  size_t length() const { return n_; }

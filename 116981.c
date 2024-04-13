@@ -1,0 +1,1 @@
+  bool empty() const { return ordered_.empty(); }

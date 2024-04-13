@@ -1,0 +1,3 @@
+  MakeArg() {
+    type = Arg::NONE;
+  }

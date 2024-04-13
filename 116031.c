@@ -1,0 +1,1 @@
+  static uint64_t type(T) { return Arg::INT; }

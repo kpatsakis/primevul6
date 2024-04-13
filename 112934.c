@@ -1,0 +1,3 @@
+  ~HashContext() {
+    HashContext::sweep();
+  }

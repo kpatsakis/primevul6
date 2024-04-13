@@ -1,0 +1,1 @@
+    AP4_SampleCursor() : m_EndReached(false) {}

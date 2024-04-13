@@ -1,0 +1,1 @@
+  void clear() FMT_NOEXCEPT { size_ = 0; }

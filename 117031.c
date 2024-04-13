@@ -1,0 +1,1 @@
+  void operator()(TFE_Op* op) const { TFE_DeleteOp(op); }

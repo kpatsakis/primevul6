@@ -1,0 +1,1 @@
+  explicit SimpleBinaryOp(OpKernelConstruction* ctx) : OpKernel(ctx) {}

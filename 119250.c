@@ -1,0 +1,1 @@
+static string getDataDir() { return TS::ptr()->get_data_path(); }

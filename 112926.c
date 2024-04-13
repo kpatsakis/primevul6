@@ -1,0 +1,1 @@
+  HashExtension() : Extension("hash", "1.0") { }

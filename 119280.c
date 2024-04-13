@@ -1,0 +1,1 @@
+    void setFinestScale(int val) CV_OVERRIDE { finest_scale = val; }

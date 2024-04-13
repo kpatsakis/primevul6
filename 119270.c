@@ -1,0 +1,1 @@
+    void setPatchSize(int val) CV_OVERRIDE { patch_size = val; }

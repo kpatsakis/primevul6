@@ -1,0 +1,1 @@
+  char type_prefix() const { return type_; }

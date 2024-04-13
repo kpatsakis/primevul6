@@ -1,0 +1,1 @@
+  SimpleXMLExtension(): Extension("simplexml", "1.0") {}

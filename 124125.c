@@ -1,0 +1,4 @@
+PxMDecoder::~PxMDecoder()
+{
+    close();
+}

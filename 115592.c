@@ -1,0 +1,1 @@
+  template <typename T> any(const T &value) : content_(new holder<T>(value)) {}

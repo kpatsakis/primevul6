@@ -1,0 +1,1 @@
+    void setGradientDescentIterations(int val) CV_OVERRIDE { grad_descent_iter = val; }

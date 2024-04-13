@@ -1,0 +1,1 @@
+  int64 TotalByteSize() const { return total_byte_size_; }

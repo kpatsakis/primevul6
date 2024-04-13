@@ -1,0 +1,1 @@
+  static Char cast(int value) { return static_cast<Char>(value); }

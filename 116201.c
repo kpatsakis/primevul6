@@ -1,0 +1,1 @@
+  int error_code() const { return error_code_; }

@@ -1,0 +1,1 @@
+TensorSlice::TensorSlice(int dim) { SetFullSlice(dim); }

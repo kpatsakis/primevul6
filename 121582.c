@@ -1,0 +1,1 @@
+void sig_nop(int){}

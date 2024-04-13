@@ -1,0 +1,1 @@
+static inline void setup_nr_node_ids(void) {}

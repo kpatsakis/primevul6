@@ -1,0 +1,1 @@
+  ArrayData* operator->() { return m_ad; }

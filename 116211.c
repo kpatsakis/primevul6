@@ -1,0 +1,1 @@
+  void visit_any_int(T value) { writer_.write_int(value, spec_); }

@@ -1,0 +1,1 @@
+  mbstringExtension() : Extension("mbstring", NO_EXTENSION_VERSION_YET) {}

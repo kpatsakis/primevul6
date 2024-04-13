@@ -1,0 +1,1 @@
+bool BatchnormSpatialPersistentEnabled() { return false; }

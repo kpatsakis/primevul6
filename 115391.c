@@ -1,0 +1,1 @@
+inline void Ignore::accept(Visitor &v) { v.visit(*this); }

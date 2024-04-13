@@ -1,0 +1,1 @@
+  explicit UnaryVariantOp(OpKernelConstruction* ctx) : OpKernel(ctx) {}

@@ -1,0 +1,1 @@
+        void help(stringstream& h) const { h << "de-authenticate"; }

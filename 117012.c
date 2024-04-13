@@ -1,0 +1,1 @@
+  InputInfo(int i, bool is_list) : i(i), is_list(is_list) {}

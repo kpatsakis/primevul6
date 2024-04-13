@@ -1,0 +1,1 @@
+AP4_MetaData::Initialized() { return AP4_MetaData::KeyInfos.ItemCount() != 0; }

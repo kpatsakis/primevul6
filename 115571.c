@@ -1,0 +1,1 @@
+  const std::string &name() const { return name_; }

@@ -1,0 +1,1 @@
+  const Char *data() const FMT_NOEXCEPT { return &buffer_[0]; }

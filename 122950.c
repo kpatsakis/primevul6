@@ -1,0 +1,5 @@
+void gf_bs_write_u16_le(GF_BitStream *bs, u32 val)
+{
+	gf_bs_write_int(bs, val & 0xFF, 8);
+	gf_bs_write_int(bs, val>>8, 8);
+}

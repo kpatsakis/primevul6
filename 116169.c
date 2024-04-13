@@ -1,0 +1,1 @@
+inline T *make_ptr(T *ptr, std::size_t) { return ptr; }

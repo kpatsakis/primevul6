@@ -1,0 +1,1 @@
+  ArrayExtension() : Extension("array") {}

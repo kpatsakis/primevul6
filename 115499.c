@@ -1,0 +1,1 @@
+  static Grammar &grammar() { return get_instance().g; }

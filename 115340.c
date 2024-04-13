@@ -1,0 +1,1 @@
+  void pop_args() { args_stack.pop_back(); }

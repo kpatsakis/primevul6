@@ -1,0 +1,1 @@
+  tensorflow::DataType GetDType() const { return dtype_; }

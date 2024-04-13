@@ -1,0 +1,1 @@
+static inline void io_bitmap_share(struct task_struct *tsk) { }

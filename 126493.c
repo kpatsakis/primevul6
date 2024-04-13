@@ -1,0 +1,35 @@
+int main(void) {
+  mg_log_set("3");
+  test_get_header_var();
+  test_rewrites();
+  test_check_ip_acl();
+  test_udp();
+  test_pipe();
+  test_packed();
+  test_crc32();
+  test_multipart();
+  test_http_chunked();
+  test_http_parse();
+  test_util();
+  test_sntp();
+  test_dns();
+  test_str();
+  test_timer();
+  test_url();
+  test_iobuf();
+  test_commalist();
+  test_base64();
+  test_globmatch();
+  test_http_get_var();
+  test_tls();
+  test_ws();
+  test_ws_fragmentation();
+  test_http_server();
+  test_http_client();
+  test_http_no_content_length();
+  test_http_pipeline();
+  test_http_range();
+  test_mqtt();
+  printf("SUCCESS. Total tests: %d\n", s_num_tests);
+  return EXIT_SUCCESS;
+}

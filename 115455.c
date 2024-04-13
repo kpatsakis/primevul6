@@ -1,0 +1,1 @@
+    TypeAdaptor_sv(std::function<R(SemanticValues &sv)> fn) : fn_(fn) {}

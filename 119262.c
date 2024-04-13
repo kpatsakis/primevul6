@@ -1,0 +1,1 @@
+    int getFinestScale() const CV_OVERRIDE { return finest_scale; }

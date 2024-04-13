@@ -1,0 +1,1 @@
+ShapeHandle InferenceContext::Scalar() { return MakeShape({}); }

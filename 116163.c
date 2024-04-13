@@ -1,0 +1,1 @@
+inline DummyInt signbit(...) { return DummyInt(); }

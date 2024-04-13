@@ -1,0 +1,1 @@
+  void report_unhandled_arg() {}

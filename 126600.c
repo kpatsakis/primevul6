@@ -1,0 +1,33 @@
+static void test_globmatch(void) {
+  ASSERT(mg_globmatch("", 0, "", 0) == 1);
+  ASSERT(mg_globmatch("*", 1, "a", 1) == 1);
+  ASSERT(mg_globmatch("*", 1, "ab", 2) == 1);
+  ASSERT(mg_globmatch("", 0, "a", 1) == 0);
+  ASSERT(mg_globmatch("/", 1, "/foo", 4) == 0);
+  ASSERT(mg_globmatch("/*/foo", 6, "/x/bar", 6) == 0);
+  ASSERT(mg_globmatch("/*/foo", 6, "/x/foo", 6) == 1);
+  ASSERT(mg_globmatch("/*/foo", 6, "/x/foox", 7) == 0);
+  ASSERT(mg_globmatch("/*/foo*", 7, "/x/foox", 7) == 1);
+  ASSERT(mg_globmatch("/*", 2, "/abc", 4) == 1);
+  ASSERT(mg_globmatch("/*", 2, "/ab/", 4) == 0);
+  ASSERT(mg_globmatch("/*", 2, "/", 1) == 1);
+  ASSERT(mg_globmatch("/x/*", 4, "/x/2", 4) == 1);
+  ASSERT(mg_globmatch("/x/*", 4, "/x/2/foo", 8) == 0);
+  ASSERT(mg_globmatch("/x/*/*", 6, "/x/2/foo", 8) == 1);
+  ASSERT(mg_globmatch("#", 1, "///", 3) == 1);
+  ASSERT(mg_globmatch("/api/*", 6, "/api/foo", 8) == 1);
+  ASSERT(mg_globmatch("/api/*", 6, "/api/log/static", 15) == 0);
+  ASSERT(mg_globmatch("/api/#", 6, "/api/log/static", 15) == 1);
+  ASSERT(mg_globmatch("#.shtml", 7, "/ssi/index.shtml", 16) == 1);
+  ASSERT(mg_globmatch("#.c", 3, ".c", 2) == 1);
+  ASSERT(mg_globmatch("abc", 3, "ab", 2) == 0);
+  ASSERT(mg_globmatch("#.c", 3, "a.c", 3) == 1);
+  ASSERT(mg_globmatch("#.c", 3, "..c", 3) == 1);
+  ASSERT(mg_globmatch("#.c", 3, "/.c", 3) == 1);
+  ASSERT(mg_globmatch("#.c", 3, "//a.c", 5) == 1);
+  ASSERT(mg_globmatch("#.c", 3, "x/a.c", 5) == 1);
+  ASSERT(mg_globmatch("#.c", 3, "./a.c", 5) == 1);
+  ASSERT(mg_globmatch("#.shtml", 7, "./ssi/index.shtml", 17) == 1);
+  ASSERT(mg_globmatch("#aa#bb#", 7, "caabba", 6) == 1);
+  ASSERT(mg_globmatch("#aa#bb#", 7, "caabxa", 6) == 0);
+}

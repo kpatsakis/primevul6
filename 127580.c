@@ -1,0 +1,3 @@
+	~ServerInstanceDir() {
+		destroy();
+	}

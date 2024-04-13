@@ -1,0 +1,1 @@
+  FormatError(const FormatError &ferr) : std::runtime_error(ferr) {}

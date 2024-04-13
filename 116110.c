@@ -1,0 +1,1 @@
+  size_t size() const { return buffer_.size() - 1; }

@@ -1,0 +1,1 @@
+  int segment_ids() const { return segment_ids_id_; }

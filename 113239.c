@@ -1,0 +1,1 @@
+static inline bool page_is_guard(struct page *page) { return false; }

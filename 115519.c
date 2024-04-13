@@ -1,0 +1,1 @@
+    Data() : grammar(std::make_shared<Grammar>()) {}

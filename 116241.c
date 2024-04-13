@@ -1,0 +1,1 @@
+  explicit FormatInt(unsigned long value) : str_(format_decimal(value)) {}

@@ -1,0 +1,1 @@
+  T &operator[](std::size_t index) { return ptr_[index]; }

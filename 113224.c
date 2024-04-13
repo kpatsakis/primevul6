@@ -1,0 +1,1 @@
+static inline void mm_pgtables_bytes_init(struct mm_struct *mm) {}

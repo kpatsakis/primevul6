@@ -1,0 +1,1 @@
+  explicit BasicWriter(Buffer<Char> &b) : buffer_(b) {}

@@ -1,0 +1,1 @@
+    int getPatchStride() const CV_OVERRIDE { return patch_stride; }

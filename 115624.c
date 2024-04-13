@@ -1,0 +1,1 @@
+  void visit(NotPredicate & /*ope*/) override { set_error(); }

@@ -1,0 +1,1 @@
+inline DummyInt _isnan(...) { return DummyInt(); }

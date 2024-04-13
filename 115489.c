@@ -1,0 +1,1 @@
+  void visit(Dictionary & /*ope*/) override { done_ = true; }

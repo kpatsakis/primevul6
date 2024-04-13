@@ -1,0 +1,1 @@
+  operator bool() { return grammar_ != nullptr; }

@@ -1,0 +1,1 @@
+  void visit(PrioritizedChoice & /*ope*/) override { result_ = true; }

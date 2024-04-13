@@ -1,0 +1,1 @@
+static inline bool pgtable_pmd_page_ctor(struct page *page) { return true; }

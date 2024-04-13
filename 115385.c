@@ -1,0 +1,1 @@
+  User(Parser fn) : fn_(fn) {}

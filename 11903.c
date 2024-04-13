@@ -1,0 +1,3 @@
+drv_release(TERMINAL_CONTROL_BLOCK * TCB GCC_UNUSED)
+{
+}

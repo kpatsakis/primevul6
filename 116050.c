@@ -1,0 +1,1 @@
+  wchar_t fill() const { return fill_; }

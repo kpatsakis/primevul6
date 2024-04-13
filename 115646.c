@@ -1,0 +1,1 @@
+  void visit(BackReference & /*ope*/) override { done_ = true; }

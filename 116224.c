@@ -1,0 +1,1 @@
+  MakeValue(const NamedArg<Char_> &value) { pointer = &value; }

@@ -1,0 +1,1 @@
+  void visit(Sequence & /*ope*/) override { name = "Sequence"; }

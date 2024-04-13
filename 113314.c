@@ -1,0 +1,1 @@
+static inline int in_gate_area_no_mm(unsigned long addr) { return 0; }

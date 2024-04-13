@@ -1,0 +1,3 @@
+		void commit() {
+			committed = true;
+		}

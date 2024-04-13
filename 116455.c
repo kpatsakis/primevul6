@@ -1,0 +1,1 @@
+static inline void finit_soft_fpu(struct i387_soft_struct *soft) {}

@@ -1,0 +1,1 @@
+    int getGradientDescentIterations() const CV_OVERRIDE { return grad_descent_iter; }

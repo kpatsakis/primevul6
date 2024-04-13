@@ -1,0 +1,1 @@
+  placeholder *clone() const { return content_ ? content_->clone() : nullptr; }

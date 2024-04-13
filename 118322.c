@@ -1,0 +1,1 @@
+FontData::~FontData() {}

@@ -1,0 +1,1 @@
+static inline bool vma_is_shmem(struct vm_area_struct *vma) { return false; }

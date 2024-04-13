@@ -1,0 +1,1 @@
+   MakeValue(T value) { int_value = value; }

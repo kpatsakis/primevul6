@@ -1,0 +1,1 @@
+static void fuzzer_write_fence(UNUSED void *opaque, UNUSED uint32_t fence) {}

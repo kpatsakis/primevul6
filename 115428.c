@@ -1,0 +1,1 @@
+  parse_error(const char *s) : s_(s) {}

@@ -1,0 +1,1 @@
+    placeholder *clone() const override { return new holder(value_); }

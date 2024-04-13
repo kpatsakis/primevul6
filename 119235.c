@@ -1,0 +1,1 @@
+    bool getUseSpatialPropagation() const CV_OVERRIDE { return use_spatial_propagation; }

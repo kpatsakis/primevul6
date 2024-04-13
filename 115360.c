@@ -1,0 +1,1 @@
+  Character(char ch) : ch_(ch) {}

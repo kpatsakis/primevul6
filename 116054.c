@@ -1,0 +1,1 @@
+inline DummyInt _ecvt_s(...) { return DummyInt(); }

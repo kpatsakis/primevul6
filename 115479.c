@@ -1,0 +1,1 @@
+  void visit(CaptureScope &ope) override { ope.ope_->accept(*this); }

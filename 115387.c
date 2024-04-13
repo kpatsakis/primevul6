@@ -1,0 +1,1 @@
+  ~any() { delete content_; }

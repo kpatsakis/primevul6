@@ -1,0 +1,1 @@
+  explicit FormatInt(ULongLong value) : str_(format_decimal(value)) {}

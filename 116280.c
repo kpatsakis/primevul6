@@ -1,0 +1,1 @@
+  static Arg make(const T &value) { return MakeArg<Formatter>(value); }

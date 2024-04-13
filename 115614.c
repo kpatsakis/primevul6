@@ -1,0 +1,1 @@
+inline void TokenChecker::visit(WeakHolder & /*ope*/) { has_rule_ = true; }

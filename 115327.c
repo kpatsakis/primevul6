@@ -1,0 +1,1 @@
+  void visit(WeakHolder &ope) override { ope.weak_.lock()->accept(*this); }

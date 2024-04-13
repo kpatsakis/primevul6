@@ -1,0 +1,1 @@
+  void visit(PrecedenceClimbing &ope) override { ope.atom_->accept(*this); }

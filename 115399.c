@@ -1,0 +1,1 @@
+inline void WeakHolder::accept(Visitor &v) { v.visit(*this); }

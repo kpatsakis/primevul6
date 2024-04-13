@@ -1,0 +1,1 @@
+  parser(const char *s, const Rules &rules) : parser(s, strlen(s), rules) {}

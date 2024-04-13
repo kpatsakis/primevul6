@@ -1,0 +1,1 @@
+static inline void pgtable_pmd_page_dtor(struct page *page) {}

@@ -1,0 +1,1 @@
+  static Char *get(Char *p) { return p; }

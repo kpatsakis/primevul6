@@ -1,0 +1,1 @@
+static inline void mm_dec_nr_ptes(struct mm_struct *mm) {}

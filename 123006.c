@@ -1,0 +1,1 @@
+static inline bool isQuote(char c) { return c == '\"' || c == '\''; }

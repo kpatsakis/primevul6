@@ -1,0 +1,1 @@
+  char type() const { return TYPE; }

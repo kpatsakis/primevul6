@@ -1,0 +1,1 @@
+inline DummyInt _finite(...) { return DummyInt(); }

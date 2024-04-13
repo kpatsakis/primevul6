@@ -1,0 +1,1 @@
+  ArgType(const T &arg) : type(make_type(arg)) {}

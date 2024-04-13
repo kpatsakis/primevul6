@@ -1,0 +1,1 @@
+inline void CaptureScope::accept(Visitor &v) { v.visit(*this); }

@@ -1,0 +1,1 @@
+  wddxExtension() : Extension("wddx") {}

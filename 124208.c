@@ -1,0 +1,4 @@
+DDeviceDiskInfo::DDeviceDiskInfo()
+{
+
+}

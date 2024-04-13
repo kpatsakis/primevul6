@@ -1,0 +1,1 @@
+  WeakHolder(const std::shared_ptr<Ope> &ope) : weak_(ope) {}

@@ -1,0 +1,1 @@
+  explicit TProtocol(std::shared_ptr<TTransport> ptrans) : ptrans_(ptrans) {}

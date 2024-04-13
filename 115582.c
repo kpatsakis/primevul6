@@ -1,0 +1,1 @@
+  void visit(Reference & /*ope*/) override { is_reference = true; }

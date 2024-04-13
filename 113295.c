@@ -1,0 +1,1 @@
+static inline void zero_resv_unavail(void) {}

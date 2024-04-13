@@ -1,0 +1,1 @@
+  std::vector<int32_t> GetOutputShape() { return GetTensorShape(output_id_); }

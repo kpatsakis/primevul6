@@ -1,0 +1,1 @@
+  void AddToFusedNodes(const string& name) { fused_nodes_.insert(name); }

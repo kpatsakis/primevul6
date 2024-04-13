@@ -1,0 +1,1 @@
+    void setUseSpatialPropagation(bool val) CV_OVERRIDE { use_spatial_propagation = val; }

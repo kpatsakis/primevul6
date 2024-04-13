@@ -1,0 +1,1 @@
+  FixedBuffer(Char *array, std::size_t size) : fmt::Buffer<Char>(array, size) {}

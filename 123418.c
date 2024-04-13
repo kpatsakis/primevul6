@@ -1,0 +1,1 @@
+  explicit TensorListElementShape(OpKernelConstruction* c) : OpKernel(c) {}

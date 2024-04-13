@@ -1,0 +1,1 @@
+  static Char *get(CharPtr p) { return p.base(); }

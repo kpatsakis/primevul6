@@ -1,0 +1,1 @@
+  Status Close() override { return wrapped_->Close(); }

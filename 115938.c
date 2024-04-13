@@ -1,0 +1,1 @@
+  bool flag(unsigned) const { return false; }

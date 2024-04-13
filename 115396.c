@@ -1,0 +1,1 @@
+  operator bool() const { return bool(fn_); }

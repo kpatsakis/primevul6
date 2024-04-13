@@ -1,0 +1,1 @@
+inline void AndPredicate::accept(Visitor &v) { v.visit(*this); }

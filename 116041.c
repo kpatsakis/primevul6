@@ -1,0 +1,1 @@
+  void visit_any_double(T value) { writer_.write_double(value, spec_); }

@@ -1,0 +1,1 @@
+CompositeDeepScanLine::Data::Data() : _zback(false) , _comp(NULL) {}

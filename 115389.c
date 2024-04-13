@@ -1,0 +1,1 @@
+  any(any &&rhs) : content_(rhs.content_) { rhs.content_ = nullptr; }

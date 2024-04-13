@@ -1,0 +1,1 @@
+inline void Capture::accept(Visitor &v) { v.visit(*this); }

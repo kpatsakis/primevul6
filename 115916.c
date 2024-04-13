@@ -1,0 +1,1 @@
+operator"" _a(const char *s, std::size_t) { return {s}; }

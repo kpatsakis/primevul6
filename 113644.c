@@ -1,0 +1,1 @@
+  ~SimpleXMLElement() { sweep(); }

@@ -1,0 +1,1 @@
+  bool has_value() const { return content_ != nullptr; }

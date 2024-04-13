@@ -1,0 +1,4 @@
+FrameFactory::~FrameFactory()
+{
+  delete d;
+}

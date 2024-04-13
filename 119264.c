@@ -1,0 +1,1 @@
+    void setVariationalRefinementGamma(float val) CV_OVERRIDE { variational_refinement_gamma = val; }

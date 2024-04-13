@@ -1,0 +1,1 @@
+  const wchar_t *c_str() const { return &buffer_[0]; }

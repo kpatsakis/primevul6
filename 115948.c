@@ -1,0 +1,1 @@
+  static char convert(char value) { return value; }

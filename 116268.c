@@ -1,0 +1,1 @@
+  unsigned width() const { return width_; }

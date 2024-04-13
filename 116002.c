@@ -1,0 +1,1 @@
+  WidthSpec(unsigned width, wchar_t fill) : width_(width), fill_(fill) {}

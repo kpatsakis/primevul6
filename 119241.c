@@ -1,0 +1,1 @@
+    void setUseMeanNormalization(bool val) CV_OVERRIDE { use_mean_normalization = val; }

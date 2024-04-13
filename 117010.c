@@ -1,0 +1,1 @@
+  void DeleteGradient(PyObject* tensor) const final { Py_XDECREF(tensor); }

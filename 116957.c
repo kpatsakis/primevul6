@@ -1,0 +1,1 @@
+int64_t get_uid() { return _uid++; }

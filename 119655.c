@@ -1,0 +1,1 @@
+  explicit SummaryTensorOp(OpKernelConstruction* context) : OpKernel(context) {}

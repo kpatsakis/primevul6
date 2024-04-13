@@ -1,0 +1,1 @@
+    float getVariationalRefinementDelta() const CV_OVERRIDE { return variational_refinement_delta; }

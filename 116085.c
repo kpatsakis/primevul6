@@ -1,0 +1,1 @@
+  Buffer<Char> &buffer() FMT_NOEXCEPT { return buffer_; }

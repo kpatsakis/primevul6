@@ -1,0 +1,3 @@
+OutputFile::~OutputFile() {
+  OutputFile::closeImpl();
+}

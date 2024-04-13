@@ -1,0 +1,1 @@
+  void release() { this->execute_on_destruction = false; }

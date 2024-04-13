@@ -1,0 +1,1 @@
+  any operator()(SemanticValues &sv, any &dt) const { return fn_(sv, dt); }

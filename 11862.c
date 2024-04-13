@@ -1,0 +1,4 @@
+NCURSES_PUBLIC_VAR(COLOR_PAIRS) (void)
+{
+    return CURRENT_SCREEN ? CURRENT_SCREEN->_pair_count : -1;
+}

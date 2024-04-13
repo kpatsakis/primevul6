@@ -1,0 +1,1 @@
+static inline void tss_update_io_bitmap(void) { }

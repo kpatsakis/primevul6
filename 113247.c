@@ -1,0 +1,1 @@
+static inline bool kernel_page_present(struct page *page) { return true; }

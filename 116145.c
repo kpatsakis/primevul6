@@ -1,0 +1,1 @@
+operator"" _format(const wchar_t *s, std::size_t) { return {s}; }

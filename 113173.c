@@ -1,0 +1,1 @@
+static inline unsigned int debug_guardpage_minorder(void) { return 0; }

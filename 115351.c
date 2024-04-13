@@ -1,0 +1,1 @@
+  std::shared_ptr<Ope> get_core_operator() const { return holder_->ope_; }

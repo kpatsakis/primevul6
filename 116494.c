@@ -1,0 +1,1 @@
+CConfigEntry::~CConfigEntry() { delete m_pSubConfig; }

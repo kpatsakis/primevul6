@@ -1,0 +1,1 @@
+  explicit SparseReshapeOp(OpKernelConstruction* context) : OpKernel(context) {}

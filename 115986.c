@@ -1,0 +1,1 @@
+  const char *c_str() const { return &buffer_[0]; }

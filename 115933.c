@@ -1,0 +1,1 @@
+  BasicCStringRef(const Char *s) : data_(s) {}

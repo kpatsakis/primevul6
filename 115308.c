@@ -1,0 +1,1 @@
+  const char *what() const { return s_.empty() ? nullptr : s_.c_str(); }
